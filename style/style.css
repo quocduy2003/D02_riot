@@ -1,0 +1,28 @@
+#container {
+    background-image: url("paper.gif")
+}
+
+.logo  {
+    width: 100px;
+    height:100px ;
+}
+.logo  img{
+    width: 100px;
+    height:100px ;
+}
+#login-note {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-note input {
+    width: 180px;
+}
+
+#login-note button {
+    width: 50px;
+    height: 40px;
+}
+#login-note button i{
+    font-size:24px;
+}
