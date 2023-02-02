@@ -3,7 +3,8 @@
 <head>
     <title>Dang nhap riot</title>
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 
 <body>
@@ -14,28 +15,52 @@
         </div>
         <div class="form-login">
             <div class="login">
-                <div id="login-title">
-                    <p>Dang Nhap</p>
+                <div class="login-title">
+                    <h1>Đăng Nhập</h1>
                 </div>
-                <div id="login-note">
-                    <p>Lua y danh cho nguoi choi lien minh huyen thoai</p>
-                    <input type="text" placeholder="username">
-                    <input type="password" placeholder="password">
-                    <div class="button">
-                        <button>
-                            <i class="fa fa-facebook-official"></i>
-                        </button>
-                        <button>
-                            <i class="fa fa-google"></i>
-                        </button>
-                        <button>
-                            <i class="fa fa-apple"></i>
+                <div id="login-body">
+                    <div class="help-panal">
+                        <div class="help-left">
+                            <img src="./warning.png">
+                        </div>
+                        <div class="help-right">
+                            <p>LƯU Ý DÀNH CHO NGƯỜI CHƠI LIÊN MINH HUYỀN THOẠI</p>
+                        </div>
+                    </div>
 
+                    <div class="login-input">
+                        <input type="text" placeholder="username">
+                        <input type="password" placeholder="password">
+                    </div>
+                    <div class="button">
+                        <button id="logo-fac">
+                            <i class="fa-brands fa-facebook"></i>   
+                        </button>
+                        <button class="logo-google">
+                            <img src="/gg.png">
+                        </button>
+                        <button class="Logo-apple">
+                            <i class="fa-brands fa-apple"></i>
+                        </button>
+                        <button class="logo-xbox">
+                            <i class="fab fa-xbox"></i>
                         </button>
                     </div>
                 </div>
-                <div id="login-next"></div>
-                <div id="login-footer"></div>
+                <div class="remember">
+                    <input type="checkbox">
+                    <p>Lưu đăng nhập</p>
+                </div>
+                <div class="login-next">
+                    <button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                    
+                <div class="login-footer">
+                    <p>Không thể đăng nhập ?</p>
+                    <p>Tạo tài khoản</p>
+                </div>
             </div>
 
         </div>

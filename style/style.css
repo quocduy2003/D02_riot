@@ -1,28 +1,151 @@
 #container {
-    background-image: url("paper.gif")
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    
+}
+body {
+    /* min-width: 960px; */
+    background-image: url("https://lolstatic-a.akamaihd.net/rso-login-page/3.2.35/assets/arcane_dsktp_centerAlignedCrd_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-login{
+    height: 400px;
+    width: 246px;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    background-color: #fff;
+    border: 2px solid rgba(250, 248, 246, 0.938);
+    padding: 40px 34px 0px 34px; 
+    text-align: center;
+    
 }
 
-.logo  {
-    width: 100px;
-    height:100px ;
+.login-title{
+    
+    font-size: 10px;
 }
-.logo  img{
+
+.logo {
     width: 100px;
-    height:100px ;
+    height: 100px;
 }
-#login-note {
+
+.logo img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.help-panal{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 23px;
+    
+}
+.help-left {
+    height: 100%;
+    width: 10%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.help-right{
+    height: 100%;
+    width: 90%;
+    
+}
+.help-right p{
+    height: 10%;
+    width: 100%;
+    font-size: 10px;
+    
+}
+
+.login-input {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.login-input input{
+    width: 90%;
+    height: 45%;
+    background-color: rgba(240, 232, 232, 0.623);  
+    padding-left: 10px;
+    border: none;
+}
+#logo-fac {
+    background-color: blue;
+}
+
+#login-body {
     display: flex;
     flex-direction: column;
 }
 
-#login-note input {
-    width: 180px;
+
+
+#login-body button {
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
 }
 
-#login-note button {
-    width: 50px;
-    height: 40px;
+#login-body button i {
+    font-size: 15px;
+    color: #fff;
 }
-#login-note button i{
-    font-size:24px;
+.logo-google{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.logo-google img{
+    width: 15px;
+    height: 15px;
+    
+}
+.logo-apple{
+    background-color: black;
+
+}
+.logo-xbox{
+    background-color: green;
+}
+.remember{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.remember p{
+    margin-top: 3px;
+}
+.login-next{
+    height: 55px;
+    width: 100%;
+    padding-top: 9px;
+}
+.login-next button{
+    height: 51px;
+    width: 51px;
+    border-radius: 16px;
+    border: 3px ;
+    background-color: rgba(238, 228, 228, 0.829);
+}
+.login-footer{
+    height: 45px;
+    width: 100%;
+}
+.login-footer p{
+    font-size: 10px;
+    line-height: 7px;
 }
